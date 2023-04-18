@@ -1,16 +1,17 @@
-package common.controller;
+package nayoon;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class ErrorController extends AbstractController {
+import common.controller.AbstractController;
+
+public class Nayoon extends AbstractController {
 
 	@Override
 	public void execute(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		
-		// super.setRedirect(false);
-		super.setViewPage("/WEB-INF/error/error.jsp");
-		
+		super.setViewPage("/WEB-INF/Nayoon.jsp");
+
 	}
 
 }
