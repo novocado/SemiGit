@@ -96,8 +96,5 @@ replay_pid*
 # End of https://www.toptal.com/developers/gitignore/api/java,eclipse
 
 # Add ignoreList
-/SemiGit/src/main/java/common/controller/AbstractController.java
-/SemiGit/src/main/java/common/controller/ErrorController.java
 /SemiGit/src/main/java/common/controller/FrontController.java
-/SemiGit/src/main/java/common/controller/InterCommand.java
 /SemiGit/src/main/webapp/WEB-INF/Command.properties
