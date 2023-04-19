@@ -1,6 +1,6 @@
 package nayoon;
 
-public class nayoon {
+public class Nayoon {
 
 	public static void main(String[] args) {
 		
